@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body>section{
+    height: 60rem;
+    padding-top: 30px;
+}
+.logocontainer{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.formcontainer{
+    border: 1px solid rgb(223, 221, 221);
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+.existinguser{
+    background-color: rgb(179, 243, 179);
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 45px;
+    align-content: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.emailaddress{
+    display: block;
+    margin-bottom: 15px;
+}
+.emailaddress>p{
+    margin-bottom: 15px;
+}
+.emailaddress>input{
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid rgb(185, 182, 182);
+}
+.resume{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+}
+.resume>button{
+    background-color: rgb(12, 153, 12);
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    font: bold;
+    padding: 5px;
+    align-content: center;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    background-image:url(/);
+}
+
+.forget>a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(87, 87, 243);
+   font-weight: 600;
+}
+footer{
+    background-color: rgb(2, 61, 2);
+    color: white;
+    border-top: 5px solid rgb(117, 5, 5);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 15px;
+}
