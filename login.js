@@ -13,5 +13,3 @@ function changeBackgroundImage() {
 
 setInterval(changeBackgroundImage,2000)
 
-let form = document.querySelector('formcontainer')
-form.style.backgroundcolor.black
